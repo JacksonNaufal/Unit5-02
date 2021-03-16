@@ -20,7 +20,7 @@ function para () {
 
 function hi () {
   document.getElementById('hello').addEventListener
-    alert("Hello World", hello)
+    alert('Hello World', hello)
   }
 // the Hello  is the id of =, on the HTML and the document.getElementById, is alerting the addevent listener to find the hello, button on the HTML and its telling to to give an alert everytime it is pressed.
 
