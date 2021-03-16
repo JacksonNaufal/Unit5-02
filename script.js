@@ -1,11 +1,6 @@
-  document.getElementById('myhi').addEventListener("click", myhi)
-  document.getElementById('background2').addEventListener("click", background2)
-  document.getElementById('cyantext').addEventListener("click", cyantext)document.getElementById('alertbutton').addEventListener("click", alertbutton)
-
-function alertbutton () {
-  ('Hello World', hello)
-}
-// the Hello  is the id of =, on the HTML and the document.getElementById, is alerting the addevent listener to find the hello, button on the HTML and its telling to to give an alert everytime it is pressed.
+ document.getElementById('myhi').addEventListener('click',myhi)
+ document.getElementById('background2').addEventListener('click',background2)
+ document.getElementById('cyantext').addEventListener('click',cyantext)
 
 function myhi () {
   document.getElementById('picture').src =
