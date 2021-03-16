@@ -1,6 +1,6 @@
- document.getElementById('myhi').addEventListener('click',myhi)
- document.getElementById('background2').addEventListener('click',background2)
- document.getElementById('cyantext').addEventListener('click',cyantext)
+document.getElementById('myhi').addEventListener('click', myhi)
+document.getElementById('background2').addEventListener('click', background2)
+document.getElementById('cyantext').addEventListener('click', cyantext)
 
 function myhi () {
   document.getElementById('picture').src =
